@@ -15,16 +15,16 @@ float t,h;
 DHT dht(DHTPIN,DHTTYPE);
 
 
-const char* ssid     = "VSES";//Enter the ssid of your router
-const char* password = "gnir33nignEtr@mS";//Enter the password of your router Sm@rtEngin33ring
+const char* ssid     = "Your SSID";//Enter the ssid of your router
+const char* password = "Your password";//Enter the password of your router Sm@rtEngin33ring
 
 const char* host = "api.thingspeak.com";
 
 const char* host1 = "api.msg91.com";
 const int httpsPort1 = 443;
 const char* fingerprint = "CF 05 98 89 CA FF 8E D8 5E 5C E0 C2 E4 F7 E6 C3 C7 50 DD 5C";
-const char* privateKey = "YCAPBA7VHJN5L3NH";
-const String talkBackAPIKey = "3QM37GAHD9F2A7LQ";
+const char* privateKey = "Your Private Key";
+const String talkBackAPIKey = "Your Public Key";
 const String talkBackID = "27970";
 String talkBackCommand,tbRequest;
 int sensorvalue,MoistureValue;
